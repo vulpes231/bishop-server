@@ -1,3 +1,8 @@
-const allowedOrigins = ["http://localhost:2500", "http://localhost:5173"];
+const allowedOrigins = [
+  "http://localhost:2500",
+  "http://localhost:5173",
+  "https://bishop-server.onrender.com",
+  "https://main--scepter2024.netlify.app",
+];
 
 module.exports = { allowedOrigins };
