@@ -3,7 +3,7 @@ const { sendMessage } = require("../utils/sendMessage");
 const receiveWebhook = async (req, res) => {
   // const formData = req.body;
   // res.status(200).json({ formData });
-  const message = req.body; //.messages.text
+  const message = req.body.messages; //.messages.text
   console.log(message);
 
   // const data = {
